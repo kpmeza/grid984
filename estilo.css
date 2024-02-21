@@ -1,0 +1,67 @@
+.cabeza{
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+}
+.menu:link, .menu:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 20px ;
+    margin-right: 20px;
+  }
+  
+  .menu:hover, .menu:active {
+    background-color: blue;
+    color: white;
+  }
+  .conteico{
+    display: flex;
+    justify-content: center;
+  }
+  .sesion1{
+    background-image: url("img/atardecer\ rio\ guaviare.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sesion2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Roboto Mono', monospace;
+    column-gap: 50px;
+  }
+  .s2conte{
+    border: 1px solid blue;
+  }
+ .sesion3{
+  display: grid;
+  grid-template-columns: auto 50%;
+ }
+ .titulo{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+ }
+ .sesion3col2{
+  font-family: 'Roboto Mono', monospace;
+ }
+ .sesion4{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+ }
+ 
+ .s4img{
+  width: 300px;
+  height: 300px;
+  border: 1px solid blue;
+  border-radius:50px ;
+ }
+ 
+ 
